@@ -2,6 +2,7 @@ from phigros import *
 
 bpm = 160
 spd = 0.8
+print ("Welcome to Use StaRain-Engine Based Phigros Eulator!")
 
 d_line = Line(0.5, 0.5, 0, 0)
 
@@ -1205,5 +1206,6 @@ with Multiplier(30 / bpm):
         Click(95, -0.416, spd).set(87).set(95, pos=0.416)
         Offset(144)
 
-preview()
-# preview('Dasein', 'IN Lv.13', 'dasein.mp3', 'dasein.jpg', height=800, width=1280, size=850)
+preview('Dasein', 'IN Lv.13','dasein.mp3', '2.png', height=900, width=1600, size=850)
+
+
