@@ -1,8 +1,8 @@
-# Pygros
+# StaRain Engine/星雨引擎
 
-An open-source fanmade chart emulator of rhythm game [Phigros](https://pigeon-games.com/phigros). 
+一个开源的[Phigros](https://pigeon-games.com/phigros)谱面模拟器
 
-## Requirements
+## 安装需求
 
 [Cocos2d(Python)](http://python.cocos2d.org/)
 
@@ -11,7 +11,7 @@ Install it by running:
 pip install cocos2d
 ```
 
-## Demo
+## 演示
 
 ```shell script
 python demo.py
