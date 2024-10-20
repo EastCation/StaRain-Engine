@@ -1,6 +1,6 @@
 from phigros import *
 
-bpm = 160
+bpm = 200
 spd = 1.0
 
 d_line = Line(0.5, 0.5, 0, 0)
@@ -16,12 +16,14 @@ with Multiplier(30 / bpm):
     d_line.set(23, width=1)
     Offset(26)
     with d_line:
-        Click(0, 0.23, spd)
-        Click(0, 0.34, spd)
-        Click(0, 0.42, spd)
-        Click(0, -0.23, spd)
-        Click(0, -0.44, spd)
-        Click(0, 0.31, spd)
+        Drag(0, 0.23, spd)
+        Drag(2, 0.34, spd)
+        Drag(4, 0.42, spd)
+        Drag(6, -0.23, spd)
+        Drag(8, -0.44, spd)
+        Drag(10, 0.31, spd)
+        Offset(16)
+
         Click(240, 0.23, spd)
         Click(240, 0.42, spd)
         Click(240, 0.31, spd)
