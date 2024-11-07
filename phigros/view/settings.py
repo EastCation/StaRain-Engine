@@ -1,3 +1,4 @@
+#新谱面的缺省配置
 name = ''
 diff = ''
 music = None

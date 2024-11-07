@@ -123,7 +123,7 @@ class BaseNote:
         if line is None:
             line = data.current_line
         if line is None:
-            raise ValueError('Where is my line? :(')
+            raise ValueError('Where is my line? :( \n 嘿我判定线呢:(')
         line.bind(self)
         self.tap_sec = sec * data.multiplier + data.offset
         if show_sec is None:

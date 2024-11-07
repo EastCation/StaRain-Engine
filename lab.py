@@ -1,7 +1,7 @@
 from mido import MidiFile, tempo2bpm
 
 # 读取MIDI文件
-print("欢迎使用星雨引擎谱面启动器！请注意此启动器只能将midi文件读取为Tap音符")
+print("欢迎使用星雨引擎谱面启动器！图形化制谱器将在不久之后制作")
 path = input("请输入MIDI文件路径：>>>")
 mid = MidiFile(path)
 
